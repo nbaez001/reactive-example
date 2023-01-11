@@ -51,6 +51,7 @@ public class CarHandler {
 
 	public Mono<ServerResponse> deleteById(ServerRequest req) {
 		var id = Long.valueOf(req.pathVariable("id"));
+		log.info("Car with id {} will be deleted", id);
 		return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).body(service.deleteById(id), Void.class);
 	}
 }
