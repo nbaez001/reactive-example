@@ -6,10 +6,10 @@ import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories;
 
 @SpringBootApplication
 @EnableR2dbcRepositories
-public class SpringReactiveExample {
+public class SpringReactiveApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SpringReactiveExample.class, args);
+    SpringApplication.run(SpringReactiveApplication.class, args);
   }
 
 }
