@@ -2,7 +2,7 @@ package com.empresa.proyecto.service;
 
 import org.springframework.data.domain.Sort;
 
-import com.empresa.proyecto.entity.Car;
+import com.empresa.proyecto.model.Car;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

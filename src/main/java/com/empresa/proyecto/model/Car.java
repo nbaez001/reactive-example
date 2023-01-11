@@ -1,4 +1,4 @@
-package com.empresa.proyecto.entity;
+package com.empresa.proyecto.model;
 
 import java.io.Serializable;
 

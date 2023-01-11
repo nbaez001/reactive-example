@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.empresa.proyecto.entity.Car;
+import com.empresa.proyecto.model.Car;
 import com.empresa.proyecto.repository.CarRepository;
 import com.empresa.proyecto.service.CarService;
 

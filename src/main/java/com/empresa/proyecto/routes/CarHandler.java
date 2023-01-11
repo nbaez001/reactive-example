@@ -11,7 +11,7 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.empresa.proyecto.entity.Car;
+import com.empresa.proyecto.model.Car;
 import com.empresa.proyecto.service.CarService;
 
 import lombok.extern.slf4j.Slf4j;

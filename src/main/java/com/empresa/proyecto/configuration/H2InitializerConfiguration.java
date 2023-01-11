@@ -1,4 +1,4 @@
-package com.empresa.proyecto.config;
+package com.empresa.proyecto.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.r2dbc.connection.init.ResourceDatabasePopulator;
 import io.r2dbc.spi.ConnectionFactory;
 
 @Configuration
-public class H2InitializerConfig {
+public class H2InitializerConfiguration {
 
   @Bean
   public ConnectionFactoryInitializer initialize(ConnectionFactory factory) {
