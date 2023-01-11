@@ -1,4 +1,4 @@
-package com.empresa.proyecto.reactive.entity;
+package com.empresa.proyecto.entity;
 
 import java.io.Serializable;
 

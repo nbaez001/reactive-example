@@ -1,4 +1,4 @@
-package com.empresa.proyecto.reactive.service.impl;
+package com.empresa.proyecto.service.impl;
 
 import java.time.Duration;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.empresa.proyecto.reactive.entity.Car;
-import com.empresa.proyecto.reactive.repository.CarRepository;
-import com.empresa.proyecto.reactive.service.CarService;
+import com.empresa.proyecto.entity.Car;
+import com.empresa.proyecto.repository.CarRepository;
+import com.empresa.proyecto.service.CarService;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;

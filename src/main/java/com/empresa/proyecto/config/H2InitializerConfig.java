@@ -1,4 +1,4 @@
-package com.empresa.proyecto.reactive.config;
+package com.empresa.proyecto.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

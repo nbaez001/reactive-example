@@ -1,4 +1,4 @@
-package com.empresa.proyecto.reactive.routes;
+package com.empresa.proyecto.routes;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
