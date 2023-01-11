@@ -1,4 +1,4 @@
-package com.refactorizando.example.reactive;
+package com.empresa.proyecto.reactive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

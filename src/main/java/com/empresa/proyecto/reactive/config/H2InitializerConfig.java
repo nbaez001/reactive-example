@@ -1,9 +1,5 @@
-package com.refactorizando.example.reactive.configuration;
+package com.empresa.proyecto.reactive.config;
 
-import com.refactorizando.example.reactive.repository.CarRepository;
-import com.refactorizando.example.reactive.routes.CarHandler;
-import com.refactorizando.example.reactive.service.CarService;
-import io.r2dbc.spi.ConnectionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
@@ -11,8 +7,10 @@ import org.springframework.r2dbc.connection.init.CompositeDatabasePopulator;
 import org.springframework.r2dbc.connection.init.ConnectionFactoryInitializer;
 import org.springframework.r2dbc.connection.init.ResourceDatabasePopulator;
 
+import io.r2dbc.spi.ConnectionFactory;
+
 @Configuration
-public class ServiceConfiguration {
+public class H2InitializerConfig {
 
   @Bean
   public ConnectionFactoryInitializer initialize(ConnectionFactory factory) {
@@ -26,15 +24,4 @@ public class ServiceConfiguration {
     initializer.setDatabasePopulator(populator);
     return initializer;
   }
-
-  @Bean
-  public CarService service(CarRepository repository) {
-    return new CarService(repository);
-  }
-
-  @Bean
-  public CarHandler handler(CarService service) {
-    return new CarHandler(service);
-  }
-
 }

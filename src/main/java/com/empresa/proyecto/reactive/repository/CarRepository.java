@@ -1,8 +1,11 @@
-package com.refactorizando.example.reactive.repository;
+package com.empresa.proyecto.reactive.repository;
 
-import com.refactorizando.example.reactive.entity.Car;
 import org.springframework.data.repository.reactive.ReactiveSortingRepository;
+import org.springframework.stereotype.Repository;
 
+import com.empresa.proyecto.reactive.entity.Car;
+
+@Repository
 public interface CarRepository extends ReactiveSortingRepository<Car, Long> {
 
 }

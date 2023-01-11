@@ -1,4 +1,4 @@
-package com.refactorizando.example.reactive.entity;
+package com.empresa.proyecto.reactive.entity;
 
 import java.io.Serializable;
 
